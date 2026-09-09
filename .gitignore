@@ -1,0 +1,27 @@
+# Large databases
+humann_db/
+
+# Sequencing data
+raw_data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Nextflow files
+work/
+.nextflow/
+.nextflow.log*
+.nextflow.cache/
+
+# Generated results
+results/
+
+# Containers
+*.sif
+*.img
+
+# Temporary files
+*.tmp
+*.temp
+*.log
